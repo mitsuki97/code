@@ -9,7 +9,6 @@ int enter()
 }
 int main()
 {
-
-   cout << "shuzu"<<enter(); // 输出 Hello World
+   cout << "shuzu"<<enter(); // 输出 Hello Worl
    return 0;
 }
