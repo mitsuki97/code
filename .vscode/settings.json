@@ -1,5 +1,7 @@
 {
+    
     "python.pythonPath": "/usr/local/bin/python3",
+    "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",

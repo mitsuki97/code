@@ -74,6 +74,8 @@ def insert_find():
                 if t == l:
                     print("从第",i,"个插入")
                     print("在第",i+l,"个结束")
+                    for i in range(i, i+l):
+                        arr[i]=n
                     print("内存占用:",arr)
                     return 
 
@@ -89,10 +91,10 @@ def insert_find2():
                 print("溢出")
                 return
             if arr[i+j]=='0':
-                print("i",i)
-                print("ij",i+j)
+                print("i:",i)
+                print("i+j:",i+j)
                 t=t+1
-                print("t",t)
+                print("t:",t)
                 if t == l:
                     print("从第",i,"个插入")
                     print("在第",i+l,"个结束")
@@ -101,5 +103,5 @@ def insert_find2():
 
 neicu()
 huishou()
-insert_find()           
+insert_find2()           
 
