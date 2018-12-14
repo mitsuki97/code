@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Gevent",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "gevent": true
+        },
+        {
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
